@@ -1,0 +1,22 @@
+{
+  "name": "e5ha-simple-calculator",
+  "version": "1.0.0",
+  "description": "Calculator is a versatile command-line calculator program designed to perform basic arithmetic operations swiftly and accurately. With intuitive command syntax, users can effortlessly add, subtract, multiply, and divide numbers, making it an essential tool for quick calculations in various contexts. Calculator provides a seamless user experience, offering precise results with minimal input effort. Whether you're a student, professional, or simply need to crunch numbers on the fly, Calculator is your reliable companion for efficient mathematical computations",
+  "main": "calculator.js",
+  "type": "module",
+  "bin":"calculator.js",
+  "keywords": ["cli","command-line","utility","calculations","calculator","user-experience"],
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "esha",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
+
